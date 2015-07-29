@@ -35,4 +35,6 @@
         <property name="maxPoolPreparedStatementPerConnectionSize" value="50"/>
         <property name="maxOpenPreparedStatements" value="100"/>
     </bean>
+    <context:annotation-config />
+    <tx:annotation-driven />
 </beans>

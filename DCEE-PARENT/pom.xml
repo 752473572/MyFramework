@@ -3,8 +3,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<properties>
-		<spring.version>3.2.14.RELEASE</spring.version>
+		<spring.version>3.1.0.RELEASE</spring.version>
 		<version>1.0.0.beta</version>
+		<hibernate.version>3.6.9.Final</hibernate.version>
+		<ehcache.version>2.5.0</ehcache.version>
 	</properties>
 	<groupId>com.dcee.framework</groupId>
 	<artifactId>dcee-parent</artifactId>
